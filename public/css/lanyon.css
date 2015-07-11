@@ -537,6 +537,17 @@ a.pagination-item:hover {
   color: #8f5536;
 }
 
+/* mytheme */
+.theme-base-00 .sidebar,
+.theme-base-00 .sidebar-toggle:active,
+.theme-base-00 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #7C0973;
+}
+.theme-base-00 .container a,
+.theme-base-00 .sidebar-toggle,
+.theme-base-00 .related-posts li a:hover {
+  color: #7C0973;
+}
 
 /*
  * Overlay sidebar
