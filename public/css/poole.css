@@ -155,7 +155,7 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
+  color: #1B16E4;
   background-color: #f9f9f9;
   border-radius: 3px;
 }
@@ -186,6 +186,7 @@ pre code {
 }
 .highlight pre {
   margin-bottom: 0;
+  background-color:#E5D6E5;
 }
 
 /* Gist via GitHub Pages */

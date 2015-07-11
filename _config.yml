@@ -1,19 +1,15 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      pygments
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
-
 # Setup
-title:               esWizardry
-tagline:             'embedded system, coding and everything I passionate.'
-description:         'More on embedded system, coding Technology, my thought and everything I passionate.'
-url:                 https://eswizardry.github.io/
-baseurl:             ''
-paginate:            5
+title: esWizardry
+email: your-email@domain.com
+tagline: 'embedded system, coding and fascinating things.'
+description: > # this means to ignore newlines until "baseurl:"
+    More on embedded system, coding, android, technology, thought and fascinating things.
+
+baseurl: '' # the subpath of your site, e.g. /blog/
+url: https://eswizardry.github.io/ # the base hostname & protocol for your site
+twitter_username: eswizardry
+github_username:  eswizardry
+paginate:            1
 
 # About/contact
 author:
@@ -29,3 +25,13 @@ github:
 
 # This is the list of pages to incldue in the header of the website.
 pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
+
+# Dependencies
+markdown: kramdown
+highlighter: pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: pretty
+relative_permalinks: true
