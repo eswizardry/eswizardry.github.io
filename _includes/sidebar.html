@@ -25,6 +25,18 @@
       {% endif %}
     {% endfor %}
 
+    <!-- listing the latest 10 entries -->
+    <section>
+        <span class="sidebar-nav-item">Recent posts</span>
+        <ul>
+        {% for post in site.posts limit: 10 %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+    </section>
+
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
