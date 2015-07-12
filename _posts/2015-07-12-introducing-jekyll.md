@@ -12,9 +12,10 @@ comments: True
 
 > Jekyll คือ [ruby gem](https://rubygems.org/) ซึ่งทำหน้าที่เป็น parsing engine เพื่อใช้ในการสร้างเว็บไซต์ [static websites](https://en.wikipedia.org/wiki/Static_web_page) โดยการ parsing จากไฟล์ templates, HTML & CSS, markdown, รูปภาพ และ อื่นๆ โดยทั่วไปคนจะรู้จักกับ Jekyll ว่าเป็น [static site generator](https://staticsitegenerators.net/)
 
-### Dependencies
+## ติดตั้ง [Jekyll](http://jekyllrb.com/)
 ก่อนที่จะเริ่มสร้างเว็บไซต์ด้วย [Jekyll](http://jekyllrb.com/) มาดูกันก่อนว่าเราต้องใช้อะไรบ้าง
 
+### Dependencies
 - [Ruby](https://www.ruby-lang.org/en/).
 - [Ruby Devkit](https://www.ruby-lang.org/en/).
   - ติดตั้ง ruby devkit
@@ -29,11 +30,13 @@ comments: True
     n'; puts JSON.load('[42]').inspect"
     [42]
     {% endhighlight %}
-
-### Jekyll installation
+    
+### Install Jekyll
 ถ้ามีตามข้างบนครบแล้วก็มาติดตั้ง Jekyll กันเลย โดยเปิด command prompt ขึ้นมาแล้วก็พิมพ์คำสั่งสำหรับติดตั้ง `gem install jekyll` รอจนกว่าจะติดตั้งเสร็จใช้เวลาพอสมควรเหมือนกัน
 
-หลังจากติดตั้งเสร็จเรียบร้อยเราสามารถทดลองรันเว็บไซต์ตัวอย่างของ Jekyll โดยเปิด command prompt ขึ้นมาแล้ว cd ไปยัง directory ที่เราจะใช้ทำงาน อย่างของผมใช้ D:\doucuments ก็สามารถใช้ `cd D:\doucuments` จากนั้นก็พิมพ์คำสั่งตามด้านล่างนี้
+
+## สร้างเว็บไซต์ใน 1 นาทีด้วย [Jekyll](http://jekyllrb.com/)
+หลังจากติดตั้งเสร็จเรียบร้อยเราสามารถทดลองรันเว็บไซต์ตัวอย่างของ Jekyll โดยเปิด command prompt ขึ้นมาแล้ว cd ไปยัง directory ที่เราจะใช้ทำงาน อย่างของผมใช้ D:\doucuments ก็สามารถใช้ `cd D:\doucuments` จากนั้นก็พิมพ์คำสั่งตามด้านล่าง
 {% highlight sh linenos %}
 > gem install jekyll
 > jekyll new my-awesome-site
@@ -44,8 +47,11 @@ comments: True
 หลังจากรันคำสั่งด้านบนเสร็จจะได้ผลลัพธ์ตามนี้
 ![Jekyll-serve](/assets/cmd-jekyll-serve.jpg)
 
-จากนั้นให้เปิดเว็บเบราเซอร์แลัวป้อน [http://localhost:4000](http://localhost:4000)
-แค่นี้เราก้อได้เว็บไซต์ที่สร้างด้วย [Jekyll](http://jekyllrb.com/) แล้ว
+<br />
+จากนั้นให้เปิดเว็บเบราเซอร์แแล้วป้อน [http://localhost:4000](http://localhost:4000)
 ![awesome-site](/assets/awesome-site-localhost4000.jpg)
 
-ทีแรกว่าจะรวมการโฮสต์เว็บที่สร้างขึ้นมาจาก Jekyll ด้วยแต่ขอยกไปไว้บล็อกถัดไปดีกว่า เดี๋ยวผมจะมานำเสนอเกี่ยวกับการโฮสต์เว็บไซต์ด้วย [GitHub Pages](https://pages.github.com/) ต่อ...<3
+<br />
+แค่นี้เราก็ได้เว็บไซต์แรกที่สร้างด้วย [Jekyll](http://jekyllrb.com/) แล้วเห็นไหมว่าง่ายและใช้เวลาน้อยกว่าต้มบะหมี่กึ่งสำเร็จรูปเสียอีก (ต้มบะหมี่งสำเร็จรูปยังใช้ตั้ง 3 นาที)
+
+ทีแรกกะว่าจะรวมการโฮสต์เว็บที่สร้างขึ้นมาจาก Jekyll ด้วยแต่ขอยกไปไว้บล็อกถัดไปดีกว่า เดี๋ยวผมจะมานำเสนอเกี่ยวกับการโฮสต์เว็บไซต์ด้วย [GitHub Pages](https://pages.github.com/) ต่อ...<3
