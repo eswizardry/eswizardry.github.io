@@ -2,6 +2,9 @@
 layout: post
 title: "แนะนำการสร้างเว็บบล็อกด้วย Jekyll"
 comments: True
+tags:
+- jekyll
+- web
 ---
 
 <a href="{{ page.url }}"><img src="/assets/jekylllogo.jpg" /></a>
@@ -30,7 +33,7 @@ comments: True
     n'; puts JSON.load('[42]').inspect"
     [42]
     {% endhighlight %}
-    
+
 ### Install Jekyll
 ถ้ามีตามข้างบนครบแล้วก็มาติดตั้ง Jekyll กันเลย โดยเปิด command prompt ขึ้นมาแล้วก็พิมพ์คำสั่งสำหรับติดตั้ง `gem install jekyll` รอจนกว่าจะติดตั้งเสร็จใช้เวลาพอสมควรเหมือนกัน
 
