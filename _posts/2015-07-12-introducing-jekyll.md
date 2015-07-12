@@ -41,7 +41,6 @@ comments: True
 > jekyll new my-awesome-site
 > cd my-awesome-site
 > jekyll serve
-# => Now browse to http://localhost:4000
 {% endhighlight %}
 
 หลังจากรันคำสั่งด้านบนเสร็จจะได้ผลลัพธ์ตามนี้
@@ -51,4 +50,4 @@ comments: True
 แค่นี้เราก้อได้เว็บไซต์ที่สร้างด้วย [Jekyll](http://jekyllrb.com/) แล้ว
 ![awesome-site](/assets/awesome-site-localhost4000.jpg)
 
-ทีแรกว่าจะรวมการโฮสต์เว็บที่สร้างขึ้นมาจาก Jekyll ด้วยแต่ขอยกไปไว้บล็อกถัดไปดีกว่า เดี๋ยวผมจะมานำเสนอเกี่ยวกับการโฮสต์เว็บไซต์ด้วย GitHub Pages ต่อ...
+ทีแรกว่าจะรวมการโฮสต์เว็บที่สร้างขึ้นมาจาก Jekyll ด้วยแต่ขอยกไปไว้บล็อกถัดไปดีกว่า เดี๋ยวผมจะมานำเสนอเกี่ยวกับการโฮสต์เว็บไซต์ด้วย [GitHub Pages](https://pages.github.com/) ต่อ...
