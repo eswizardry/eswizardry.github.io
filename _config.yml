@@ -1,9 +1,9 @@
 # Setup
 title: esWizardry
 email: your-email@domain.com
-tagline: 'embedded system, coding and fascinating things.'
+tagline: 'embedded system, programming and fascinating things.'
 description: > # this means to ignore newlines until "baseurl:"
-    More on embedded system, coding, android, technology, thought and fascinating things.
+    More on embedded system, programming, android, technology, thought and fascinating things.
 
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: https://eswizardry.github.io/ # the base hostname & protocol for your site
@@ -35,3 +35,4 @@ highlighter: pygments
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: pretty
 relative_permalinks: true
+excerpt_separator: <!--more-->

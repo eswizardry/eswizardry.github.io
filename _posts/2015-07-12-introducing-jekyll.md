@@ -4,13 +4,13 @@ title: "แนะนำการสร้างเว็บบล็อกด้
 comments: True
 ---
 
-
-
+<a href="{{ page.url }}"><img src="/assets/jekylllogo.jpg" /></a>
+<!--more-->
 <strong>สวัสดีชาวโลก</strong> นี่เป็นโพสต์แรกของเว็บบล็อกแห่งนี้ขอประเดิมด้วยแนะนำการสร้างเว็บบล็อกด้วย [Jekyll](http://jekyllrb.com/) และโฮสต์เว็บด้วย [GitHub Pages](https://pages.github.com/) ซึ่งเว็บบล็อกแห่งนี้ก็สร้างและโฮสต์โดยทั้งสองอย่างที่กล่าวมา<br />
 
 ## รู้จักกับ [Jekyll](http://jekyllrb.com/)
 
-> Jekyll คือ [ruby gem](https://rubygems.org/) ซึ่งทำหน้าที่เป็น parsing engine เพื่อใช้ในการสร้างเว็บไซต์ [static websites](https://en.wikipedia.org/wiki/Static_web_page) โดยการ parsing จากไฟล์ templates, HTML & CSS, markdown, รูปภาพ และ อื่นๆ โดยทั่วไปคนจะรู้จักกับ Jekyll ว่าเป็น [static site generator](https://staticsitegenerators.net/)
+> Jekyll คือ [ruby gem](https://rubygems.org/) ซึ่งทำหน้าที่เป็น parsing engine เพื่อใช้ในการสร้างเว็บไซต์ [static websites](https://en.wikipedia.org/wiki/Static_web_page) โดยการ parsing จากไฟล์ templates, HTML & CSS, markdown, รูปภาพ และ อื่นๆ โดย Jekyll นี้จัดว่าเป็นหนึ่งใน [static site generator](https://staticsitegenerators.net/) โดยมีสโลแกนว่า <strong>"Simple, blog-aware, static sites"</strong>
 
 ## ติดตั้ง [Jekyll](http://jekyllrb.com/)
 ก่อนที่จะเริ่มสร้างเว็บไซต์ด้วย [Jekyll](http://jekyllrb.com/) มาดูกันก่อนว่าเราต้องใช้อะไรบ้าง
