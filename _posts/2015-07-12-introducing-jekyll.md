@@ -12,8 +12,6 @@ comments: True
 
 > Jekyll คือ [ruby gem](https://rubygems.org/) ซึ่งทำหน้าที่เป็น parsing engine เพื่อใช้ในการสร้างเว็บไซต์ [static websites](https://en.wikipedia.org/wiki/Static_web_page) โดยการ parsing จากไฟล์ templates, HTML & CSS, markdown, รูปภาพ และ อื่นๆ โดยทั่วไปคนจะรู้จักกับ Jekyll ว่าเป็น [static site generator](https://staticsitegenerators.net/)
 
-สำหรับคนที่อยากลองสร้างเว็บไซต์อย่างรวดเร็วด้วสามารถ
-
 ### Dependencies
 ก่อนที่จะเริ่มสร้างเว็บไซต์ด้วย [Jekyll](http://jekyllrb.com/) มาดูกันก่อนว่าเราต้องใช้อะไรบ้าง
 
