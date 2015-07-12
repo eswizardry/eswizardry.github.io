@@ -45,10 +45,10 @@ comments: True
 {% endhighlight %}
 
 หลังจากรันคำสั่งด้านบนเสร็จจะได้ผลลัพธ์ตามนี้
-![Jekyll-serve](/assets/cmd-jekyll-serve.png)
+![Jekyll-serve](https://goo.gl/CkjZaX)
 
 จากนั้นให้เปิดเว็บเบราเซอร์แลัวป้อน [http://localhost:4000](http://localhost:4000)
 แค่นี้เราก้อได้เว็บไซต์ที่สร้างด้วย [Jekyll](http://jekyllrb.com/) แล้ว
-![awesome-site](/assets/awesome-site-localhost4000.png)
+![awesome-site](https://goo.gl/szc0pJ)
 
 ทีแรกว่าจะรวมการโฮสต์เว็บที่สร้างขึ้นมาจาก Jekyll ด้วยแต่ขอยกไปไว้บล็อกถัดไปดีกว่า เดี๋ยวผมจะมานำเสนอเกี่ยวกับการโฮสต์เว็บไซต์ด้วย GitHub Pages ต่อ...
