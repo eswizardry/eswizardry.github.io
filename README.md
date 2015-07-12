@@ -1,6 +1,9 @@
 # esWizardry
 
-This repo is for my blog posts using Pool/Lanyon for theme.
+This repo is for my personal blog posts using Pool/Lanyon for theme.
+
+## Blog url
+https://eswizardry.github.io
 
 ## Author
 
@@ -11,6 +14,7 @@ This repo is for my blog posts using Pool/Lanyon for theme.
 
 ## License
 
-Open sourced under the [MIT license](LICENSE.md).
+Most of files/folders are Open sourced under the [MIT license](LICENSE.md).
+except my _posts and _assets folders are copyrights to me.
 
 <3
