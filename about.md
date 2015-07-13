@@ -6,8 +6,7 @@ title: About
 
  > "There are two great days in a person's life — the day we are born and the day we discover why." ~ William Barclay
 
-Hello, welcome to esWizardry, I am an embedded system engineer from bangkok, and this is my personal blog. I blog on what's I study and learn, embedded system, programming, android, technology, thought and things I find fascinating.
-
-You can follow me on twitter [@eswizardy](https://twitter.com/eswizardy).
+Hello, welcome to esWizardry, I am an engineer live in Bangkok, and this is my personal blog. I blog on what's I've learn, embedded system, programming, practice, android, tech, thought and things I find fascinating.
 
 Thanks for visit my blog!
+You can follow me on twitter [@eswizardy](https://twitter.com/eswizardy).
