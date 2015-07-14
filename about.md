@@ -9,4 +9,5 @@ title: About
 Hello, welcome to esWizardry, I am an engineer live in Bangkok, and this is my personal blog. I blog on what's I've learn, embedded system, programming, practice, android, tech, thought and things I find fascinating.
 
 Thanks for visit my blog!
+
 You can follow me on twitter [@eswizardy](https://twitter.com/eswizardy).
