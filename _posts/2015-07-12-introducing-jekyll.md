@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "แนะนำการสร้างเว็บบล็อกด้วย Jekyll"
+title: "มาสร้างเว็บบล็อกด้วย Jekyll กันเถอะ"
 comments: True
 tags:
 - jekyll
@@ -18,7 +18,7 @@ tags:
 ## ติดตั้ง [Jekyll](http://jekyllrb.com/)
 ก่อนที่จะเริ่มสร้างเว็บไซต์ด้วย [Jekyll](http://jekyllrb.com/) มาดูกันก่อนว่าเราต้องใช้อะไรบ้าง
 
-### Dependencies
+### สิ่งที่จำเป็นต้องมีก่อนการสร้างเว็บด้วย Jekyll (Dependencies)
 - [Ruby](https://www.ruby-lang.org/en/).
   - การติดตั้ง ruby นั้นตรงไปตรงมาให้ดับเบิ้ลคลิกไฟล์ติดตั้ง ruby ที่ดาวน์โหลดมาแล้วทำตาม installation guide ได้เลย แต่ตอนติดตั้งให้เลือกด้วยว่าให้ เพิ่ม ruby เข้าไปที่ system path ของ windows ด้วย
 - [Ruby Devkit](https://www.ruby-lang.org/en/).

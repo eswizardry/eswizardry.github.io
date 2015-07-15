@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "มาเพิ่มแท็บให้กับ SourceInsight กัน (TabSiPlus Tap for SourceInsight)"
+title: "มาเพิ่มแท็บให้กับ SourceInsight กัน (TabSiPlus)"
 comments: True
 tags: tools
 ---
 
-<a href="{{ page.url }}"><img src="/assets/jekylllogo.jpg" /></a>
+<a href="{{ page.url }}"><img src="/assets/tabSiPlus/SI-about-logo.jpg" /></a>
 <!--more-->
 
-[SourceInsight]() เป็น [Text editor]() ตัวหนึ่งที่ผมชอบและใช้ทำงาน (ส่วนมากใช้อยู่ที่ทำงาน) มา 2-3 ปีก่อนจะเปลี่ยนมาใช้ [Sublime Text]() ในปัจจุนรวมทั้งใช้ในการพัฒนาและเขียนบล็อกในเว็บนี้ด้วย
+[SourceInsight](http://www.sourceinsight.com/) เป็น [Text editor](https://en.wikipedia.org/wiki/Text_editor) ตัวหนึ่งที่ผมใช้ทำงานเป็นหลัก (ส่วนมากใช้อยู่ที่ทำงาน) ก่อนจะเปลี่ยนมาใช้ [Sublime Text](http://www.sublimetext.com/) ในปัจจุบันซึ่งก็ใช้ในการพัฒนาและเขียนบล็อกในเว็บนี้ด้วย
 
 ## SourceInsight
-เป็น [Text editor]() ที่พัฒนาโดยบริษัท มี features ที่เด่นดังนี้
+เป็น [Text editor]() ที่พัฒนาโดยบริษัท SourceDynamic มี features ที่เด่นดังนี้
 - Code completion
 - bla bla bla
 
