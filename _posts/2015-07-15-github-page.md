@@ -80,7 +80,7 @@ $ git push origin master
 
 <br />
 
-## อัพโหลดเว็บไซต์ที่สร้างด้วย [Jekyll](https://eswizardry.github.io/2015/07/12/introducing-jekyll/) จาก[บล็อก](https://eswizardry.github.io/2015/07/12/introducing-jekyll/)ที่แล้วไปที่ GitHup Page
+## อัพโหลดเว็บไซต์ที่สร้างด้วย [Jekyll]({{site.url}}2015/07/12/introducing-jekyll/) จาก[บล็อก]({{site.url}}/2015/07/12/introducing-jekyll/)ที่แล้วไปที่ GitHup Page
 - copy ไฟล์ที่อยู่ในโฟลเดอร์ "my-awesome-site" ทั้งหมดไปแทนที่ไฟล์ในโฟลเดอร์ที่เราโคลนมาเมื่อก่อนหน้าจากนั้นก็ใช้คำสั่ง Git เพื่ออัพไฟล์ไปที่ GitHub
 {% highlight sh linenos %}
 $ git add -A
