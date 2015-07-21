@@ -623,11 +623,12 @@ a.pagination-item:hover {
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
-    margin-left: 3rem;
+    max-width: 10%;
+    margin-left: 5rem;
 }
 
 .footer-col-3 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
-    margin-left: 3rem;
+    float: right;
 }
