@@ -12,8 +12,21 @@ tags: tools
 
 ## SourceInsight
 เป็น [Text editor](https://en.wikipedia.org/wiki/Text_editor) ที่พัฒนาโดยบริษัท SourceDynamic มี features ที่เด่นดังนี้
-- Code completion
-- bla bla bla
+
+### [SourceInsight Features](http://www.sourceinsight.com/prodinfo.html)
+- Call Graphs and Class Tree Diagrams
+- Context Sensitive Dynamic Type Resolution
+- Symbol Windows For Each File
+- Automatic Display of Declarations in the Context Window
+- Syntax Formatting - Like Syntax Coloring but More
+- Context-Sensitive Smart Rename
+- Finds References Quickly
+- Mixed Language Editing
+- Keyword Searches Like an Internet Search on Your Code Base
+- Symbolic Auto-Completion
+- Quick Access to All Symbols and Files
+- Project Orientation
+- etc.
 
 จากฟังก์ชันการทำงานนี่ถือว่าเป็น [Text editor](https://en.wikipedia.org/wiki/Text_editor) ที่ครบเครื่องมาก ถ้าจะมีตัวเปรียบเทียบที่ทำความสารถได้ขนาดนี้โดยไม่ต้องมีส่วนเสริม (plug-in) แล้วล่ะก็เห็นจะมีแต่ [SlickEdit](http://www.slickedit.com/) อีกตัวซึ่งตัวนี้อาจมีฟังก์ชันเยอะกว่า [SourceInsight](http://www.sourceinsight.com/) ด้วยซ้ำไปแต่สำหรับผมคิดว่ามันเยอะเกินพอดีทำให้กินทรัพยากรของเครื่องมากไปและหน้าตาของมันแม้จะดูทันสมัยแต่ก็เต็มไปด้วย scroll bar ซึ่งกินพื้นที่การทำงานบนหน้าจอไปเยอะเลย รู้สึกว่ามันรก
 
@@ -29,7 +42,7 @@ tags: tools
 - [Microsoft Visual C++ 2008 Redistributable Package](https://www.microsoft.com/en-us/download/details.aspx?id=29)
 อันนี้ต้องถูกติดตั้งในเครื่องเพื่อการทำงานที่ถูกต้องของ TabSiPlus
 
-## การใช้งาน TabSiPlus [TabSiPlus](http://goo.gl/1vI6AT)
+## การใช้งาน [TabSiPlus](http://goo.gl/1vI6AT)
 หลังจากโหลด TabSiplus มาแล้วให้ copy โฟลเดอร์ไปไว้ที่เราต้องการได้เลยหลังจากนั้นเปิดเข้าไปในโฟลเดอร์
 แล้วดับเบิ้ลคลิก TabSiHost ถ้าไม่มีข้อผิดพลาดอะไรแค่นี้ TabSiPlus ก็ทำงานเรียบร้อยแล้ว
 ![้host](/assets/tabSiPlus/tapSi-host-run.jpg)
@@ -37,7 +50,7 @@ tags: tools
 เปิด SourceInsight ขึ้นมาก็จะเจอกับ Tab ที่เพิ่มขึ้นมา
 ![taptop](/assets/tabSiPlus/SI-addTap-toTop.jpg)
 
-## TabSiPlus [TabSiPlus](http://goo.gl/1vI6AT) customization
+## [TabSiPlus](http://goo.gl/1vI6AT) customization
 ใหเปิดเข้าไปในโฟลเดอร์ของ TabSiPlus อีกทีจากนั้นเปิดไฟล์ Tabtest ขึ้นมาเพื่อปรับแต่ง theme ของ tab
 ![้tabtest](/assets/tabSiPlus/tapSi-folder-setting.jpg)
 
@@ -54,7 +67,8 @@ tags: tools
 ![้option](/assets/tabSiPlus/tapSi-save-setting.jpg)
 
 
-และภายในหน้าต่างของ SourceInsight ที่มี TabSiPlus เกาะอยู่เรายังสามารถปรับแต่ง option ต่างได้อีกหลายอย่างเช่น
+#### และภายในหน้าต่างของ SourceInsight ที่มี TabSiPlus เกาะอยู่เรายังสามารถปรับแต่ง option ต่างได้อีกหลายอย่างเช่น
+
 - เลือก theme ที่เราสร้างขึ้น
 - ปรับให้แท็บอยู่ข้างล่างหรือข้างบน
 - อื่นๆ ลองปรับแต่งกันดูได้ครับ
