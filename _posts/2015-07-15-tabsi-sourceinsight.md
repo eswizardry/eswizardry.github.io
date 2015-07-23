@@ -2,6 +2,7 @@
 layout: post
 title: "มาเพิ่มแท็บให้กับ SourceInsight ด้วย TabSiPlus"
 comments: True
+description: "SourceInsight เป็น Text editor ตัวหนึ่งที่ผมใช้ทำงานเป็นหลัก ก่อนจะเปลี่ยนมาใช้ Sublime Text"
 tags: tools
 ---
 

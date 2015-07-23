@@ -2,6 +2,7 @@
 layout: post
 title: "มาสร้างเว็บบล็อกด้วย Jekyll กันเถอะ"
 comments: True
+description: "นี่เป็นโพสต์แรกของเว็บบล็อกแห่งนี้ขอประเดิมด้วยแนะนำการสร้างเว็บบล็อกด้วย Jekyll และโฮสต์เว็บด้วย GitHub Pages"
 tags:
 - jekyll
 - web

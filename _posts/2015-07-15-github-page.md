@@ -2,6 +2,7 @@
 layout: post
 title: "การใช้งาน GitHub Page เพื่อโฮสเว็บไซต์ที่สร้างด้วย Jekyll"
 comments: True
+description: "บล็อกที่แล้วได้นำเสนอการสร้างเว็บไซต์ด้วย Jekyll กันไปแล้วต่อไปมาดูวิธีการใช้งานและโฮสต์เว็บด้วย GitHub Pages"
 tags:
 - github
 - jekyll
@@ -44,7 +45,7 @@ tags:
 $ mkdir /path/to/source-code
 $ cd /path/to/source-code
 {% endhighlight %}
-    
+
 - ไปที่ GitHub repositoy ของเราแล้ว copy URL ของ repository ที่เราสร้างขึ้นมา
 
 ![copy-to-clipboard](/assets/gh-page/copy-to-clipboard.jpg)
@@ -72,7 +73,7 @@ $ git commit index.html -m “Initial commit with my Hello world”
 $ git push origin master
 ...
 {% endhighlight %}
-    
+
 - เสร็จเรียบร้อย ให้เปิดบราวเซอร์ขึ้นมาแล้วเข้าไปที่ URL ของ repository เรา "https://<strong>username</strong>.github.io"
 ก็จะเจอกับข้อความ <br />
 
@@ -92,5 +93,5 @@ $ git commit -m “Add Jekyll”
 $ git push origin master
 ...
 {% endhighlight %}
-    
+
 สำเร็จแล้ว!

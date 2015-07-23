@@ -7,7 +7,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>&copy; {{ site.time | date: '%Y' }} | <a href="{{ site.url }}">esWizardry.</a> All rights reserved.</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           <li><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
         </ul>
@@ -21,6 +21,12 @@
           </li>
           {% endif %}
 
+          {% if site.googleplus_username %}
+          <li>
+            <a rel="author" href="https://plus.google.com/{{ site.googleplus_username }}"><image src="/assets/googleplus.jpg" /></a>
+          </li>
+          {% endif %}
+
           {% if site.twitter_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter_username }}"><image src="/assets/twtblue-logo.jpg" /></a>
@@ -28,13 +34,6 @@
           {% endif %}
         </ul>
       </div>
-
-      <div class="footer-col  footer-col-3">
-        <p>
-          &copy; {{ site.time | date: '%Y' }} | <a href="{{ site.url }}">esWizardry.</a> All rights reserved.
-        </p>
-      </div>
-
     </div>
   </div>
 </footer>
