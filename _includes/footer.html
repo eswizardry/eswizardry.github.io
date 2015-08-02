@@ -7,7 +7,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>&copy; {{ site.time | date: '%Y' }} | <a href="{{ site.url }}">esWizardry.</a> All rights reserved.</li>
+          <li>&copy; {{ site.time | date: '%Y' }} | <a href="/">esWizardry.</a> All rights reserved.</li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
           <li><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
         </ul>
@@ -17,19 +17,19 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            <a href="https://github.com/{{ site.github_username }}"><image src="/assets/gh-logo.jpg" /></a>
+            <a href="https://github.com/{{ site.github_username }}"><img src="/assets/gh-logo.jpg" /></a>
           </li>
           {% endif %}
 
           {% if site.googleplus_username %}
           <li>
-            <a rel="author" href="https://plus.google.com/{{ site.googleplus_username }}"><image src="/assets/googleplus.jpg" /></a>
+            <a rel="author" href="https://plus.google.com/{{ site.googleplus_username }}"><img src="/assets/googleplus.jpg" /></a>
           </li>
           {% endif %}
 
           {% if site.twitter_username %}
           <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><image src="/assets/twtblue-logo.jpg" /></a>
+            <a href="https://twitter.com/{{ site.twitter_username }}"><img src="/assets/twtblue-logo.jpg" /></a>
           </li>
           {% endif %}
         </ul>
