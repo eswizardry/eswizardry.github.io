@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
     More on embedded system, programming, android, technology, thought and fascinating things.
 
 baseurl: '' # the subpath of your site, e.g. /blog/
-url: https://eswizardry.github.io/ # the base hostname & protocol for your site
+url: eswizardry.com/ # the base hostname & protocol for your site
 twitter_username: eswizardry
 googleplus_username:  +BanchaRajainthong
 github_username:  eswizardry
@@ -15,7 +15,7 @@ paginate:            1
 # About/contact
 author:
   name:              eswizardry
-  url:               https://eswizardry.github.io/
+  url:               eswizardry.com
   email:             edrit011@gmail.com
 
 # Custom vars
