@@ -58,6 +58,7 @@ tags:
 นอกจากบอร์ด [Arduino](https://www.arduino.cc/) แล้วเรายังได้เห็นการต่อยอดของฮาร์ดแวร์ออกมาในรูปแบบของ [Shield (ชีลด์)](https://www.arduino.cc/en/Main/Products)  ซึ่งเป็นบอร์ดเสริมช่วยเพิ่มความสามารถให้กับ [Arduino](https://www.arduino.cc/) และลดการบัดกรีได้ทำให้การพัฒนาหรือประดิษฐ์อุปกรณ์ด้วยไมโครคอนโทรลเลอร์ง่ายขึ้นไปอีกขั้น
 
 <br/>
+
 #### [Ethernet Shield](https://www.arduino.cc/en/Main/ArduinoEthernetShield)
 ![shield-ethernet](/assets/intro-arduino/shield-ethernet.jpg)
 <br/>
