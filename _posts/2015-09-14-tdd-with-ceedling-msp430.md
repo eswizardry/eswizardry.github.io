@@ -23,7 +23,7 @@ Ceedling เป็นเครื่งมือที่ช่วยในก�
 ##มาลองใช้งานกันเลย
 หลังจากติดตั้ง [CEEDLING](http://www.throwtheswitch.org/ceedling/)  เสร็จแล้วก็ให้เปิด terminal ขึ้นมาแล้ว cd ไปที่ฟลเดอร์ที่เราจะใช้ทำงานแล้วก็ป้อนคำสั่ง `ceedling example temp_sensor` เพื่อลองเล่นกับตัวอย่างกันก่อนโดย [CEEDLING](http://www.throwtheswitch.org/ceedling/) จะทำการสร้างตัวอย่างขึ้นมาแล้วได้เอาต์พุตตามนี้
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/temp_sensor
 $ ceedling example temp_sensor
       create  temp_sensor/vendor/ceedling/docs/CeedlingPacket.pdf
@@ -46,7 +46,7 @@ Example project 'temp_sensor' created!
 `cd temp_sensor`
 แล้วก็สั่งรันคำสั่ง `rake -T` เพื่อที่จะดูว่าเราสามารถทำอะไรกับโปรเจ็คนี้ได้บ้าง
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/temp_sensor
 $ cd temp_sensor/
 
@@ -75,7 +75,7 @@ rake version              # Display build environment version info
 
  จากนั้นลองคำสั่ง `rake test:all` เพื่อทดสอบการทดสอบทั้งหมด
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/temp_sensor
 $ rake test:all
 
@@ -156,7 +156,7 @@ ceedling จะทำการ build และสั่งรันการท�
 ขั้นแรกให้ cd ออกจากโปรเจ็คตัวอย่างก่อน `cd ..` จากนั้นให้ป้อนคำสั่ง `cd temp_sensor`
 ceedling ก็จะทำการสร้างไฟล์ที่จำเป็นสำหรับโปรเจ็คใหม่ของเรา
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/
 $ ceedling new try-embedded-tdd
       create  try-embedded-tdd/vendor/ceedling/docs/CeedlingPacket.pdf
@@ -176,7 +176,7 @@ Project 'try-embedded-tdd' created!
 ถัดมาก็ป้อนคำสั่ง `rake module:create[led_driver]`เพื่อสร้างไฟล์หรือโมดูลที่จะใช้ในการพัฒนา งานของเราโดยในที่นี้ผมจะขอยกตัวอย่างการพัฒนา led driver แบบง่ายละกันโดยให้ module นี้ชื่อว่า led_driver
 หลังจากป้อนคำสั่ง ceedling ก็จะทำการสร้างไฟล์ `led_driver.c`, `led_driver.h` และ ไฟล์ `test_led_driver.c` เพื่อเอาไว้พัฒนาและเขียนการทดสอบสำหรับโมดูลที่สร้างขึ้น
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/try-embedded-tdd
 $ rake module:create[led_driver]
 Generating 'led_driver'...
@@ -192,7 +192,7 @@ File ./src/./led_driver.h created
 ทีนี้เราก็มาลองสั่งรันการทดสอบโมดูลที่เราพึ่งสร้างขึ้นมาโดยใช้คำสั่ง
 `rake test:all`
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/try-embedded-tdd
 $ rake test:all
 
@@ -233,7 +233,7 @@ IGNORED: 1
 
 โดยผลทดสอบที่ได้จะเห็นว่าไม่มีการทดสอบเกิดขึ้นเพราะเรายังไม่ได้สร้างการทดสอบใดๆ เลยยกเว้นการทดสอบที่ ceedling สร้างขึ้นโดยอัตโนมัติ และใส่สถานะว่าให้ทำการข้ามการทดสอบนี้ไว้และมีการเจ้งเตือนรายละเอียดไว้ที่ดังนี้
 
-{% highlight sh linenos %}
+{% highlight sh %}
 
 --------------------
 IGNORED TEST SUMMARY
@@ -255,7 +255,7 @@ IGNORED: 1
 โดยถ้าเราไปเปิดไฟล์ `test_led_drive.c` ดูก็จะพบกับโค้ดที่ ceedling สร้างขึ้นดังนี้
 
 ###test_led_driver.c
-{% highlight c linenos %}
+{% highlight c %}
 #include "unity.h"
 #include "led_driver.h"
 
@@ -278,7 +278,7 @@ void test_module_generator_needs_to_be_implemented(void)
 ต่อไปก็แก้ไขไฟล์ `test_led_driver.c` ตามตัวอย่างข้างล่างเพื่อเพิ่มการทดสอบเข้าไปโดยผมได้ทำการเขียนโค้ดสำหรับการทดสอบก่อนตามหลักการของ TDD โดยจากการทดสอบที่สร้างขึ้นผมได้เขียนเพื่อทดว่าหลังจากที่เรียกฟังก์ชัน `ledDriver_Initial()` แล้วสถานะ `LED` ต้องเป็น `0` เท่านั้นนอกเหนือจากนี้คือไม่ผ่าน (fail)
 
 ###test_led_driver.c
-{% highlight c linenos %}
+{% highlight c %}
 #include "unity.h"
 #include "led_driver.h"
 
@@ -304,7 +304,7 @@ void test_LedOffAfterInitial(void)
 จากนั้นก็แก้ไข header ไฟล์ `led_driver.c` และ `led_driver.h` เพื่อให้ไฟล์ `test_led_driver.c` สามารถเรียกใช้งานฟังก์ชัน `ledDeriver_Initial()` ได้
 
 ###led_driver.c
-{% highlight c linenos %}
+{% highlight c %}
 #include "led_driver.h"
 
 
@@ -315,7 +315,7 @@ void ledDeriver_Initial(unsigned char  *ledAddress) {
 {% endhighlight %}
 
 ###led_driver.h
-{% highlight c linenos %}
+{% highlight c %}
 #ifndef led_driver_H
 #define led_driver_H
 
@@ -334,7 +334,7 @@ void ledDeriver_Initial(unsigned char  *ledAddress);
 
 <br>
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/try-embedded-tdd
 $ rake test:all
 
@@ -382,7 +382,7 @@ Unit test failures.
 โดยผมเพิ่มโค้ดเข้าไปใน `led_driver.c`ดังนี้
 
 ###led_driver.c
-{% highlight c linenos %}
+{% highlight c %}
 #include "led_driver.h"
 
 
@@ -396,7 +396,7 @@ void ledDeriver_Initial(unsigned char  *ledAddress) {
 ต่อไปเรามาลองทำการทดสอบโค้ดที่เราเพิ่มเข้าไปดูว่าสามารถผ่านการทดสอบได้หรือไม่
 โดยป้อนคำสั่ง `rake test:all`
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/try-embedded-tdd
 $ rake test:all
 
@@ -437,7 +437,7 @@ IGNORED: 0
 รายละเอียดเพิ่มเติมดูได้จาก [IAR Technical Note 47884](http://supp.iar.com/Support/?note=47884)
 
 ###test compiler
-{% highlight ruby linenos %}
+{% highlight ruby %}
   :test_compiler:
     :executable: icc430.exe
     :arguments:
@@ -465,7 +465,7 @@ IGNORED: 0
 
 
 ###test linker
-{% highlight ruby linenos %}
+{% highlight ruby %}
 :test_linker:
     :executable: xlink.exe
     :arguments:
@@ -486,7 +486,7 @@ IGNORED: 0
 ส่วนสุดท้ายสำหรับการทดสอบคือการแก้ไขค่าให้ การทดสอบของเรารันบน IAR simulator (IAR c-spy)
 
 ###test fixture
-{% highlight ruby linenos %}
+{% highlight ruby %}
   :test_fixture:
     :executable: D:\Documents\try-embedded-tdd\TestProj.cspy.bat
     :name: "msp430 simulator test fixture"
@@ -497,7 +497,7 @@ IGNORED: 0
 
 และอีกส่วนหนึ่งที่ต้องแก้ไขคือ executable ไฟล์ นี้เราต้องแก้ไขค่าให้เป็น `.d43` ไม่อย่างนั้นจะไม่สามารถรันบน IAR c-spy ได้
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 :extension:
   :executable: .d43
 {% endhighlight %}
@@ -506,7 +506,7 @@ IGNORED: 0
 ต่อไปเรามาลองทำการทดสอบอีกครั้งกับ compiler และ simulator ของ IAR
 ก่อนอื่นให้ทำการ clean build ก่อนหน้านี้ที่ใช้ GCC ก่อน
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/try-embedded-tdd
 $ rake clean
 
@@ -527,7 +527,7 @@ $
 จากนั้นป้อนคำสั่ง `rake test:all`
 ก็จะพบกับ test output ที่เปลี่ยนไปโดยบอกรายละเอียดการทดสอบ โดยใช้ IAR c-spy แทน
 
-{% highlight sh linenos %}
+{% highlight sh %}
 eswizardry@eswizardry-PC/d/Documents/try-embedded-tdd
 $ rake test:all
 
