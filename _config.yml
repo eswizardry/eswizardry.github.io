@@ -30,14 +30,12 @@ pages_list:       {'About':'/about','Archive':'/archive','Feed':'/atom.xml'}
 # Dependencies
 highlighter: true
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 # Sitemap
 gems:
   - jekyll-sitemap
 
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: pretty
 excerpt_separator: <!--more-->
