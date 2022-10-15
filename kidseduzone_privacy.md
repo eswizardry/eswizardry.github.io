@@ -1,3 +1,13 @@
+---
+layout: post
+title: "Privacy Policy"
+comments: False
+description: "Privacy Policy - อ่านเขียน ก.ไก่ สระ ตัวเลข ABC app"
+tags:
+- privacy
+- term
+---
+
 **Privacy Policy**
 
 esWizardry built the อ่านเขียน ก.ไก่ สระ ตัวเลข ABC app as a Freemium app. This SERVICE is provided by esWizardry at no cost and is intended for use as is.
